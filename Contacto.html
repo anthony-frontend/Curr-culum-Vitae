@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <img src="foto.png" width="200" height="200" alt="Foto de perfil" class="perfil">
+        <div class="datos-personales">
+            <h1>Anthony Orlando Suarez Mendez</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Habilidades.html">Habilidades</a></li>
+            <li><a href="Estudios.html">Estudios realizados</a></li>
+            <li><a href="Experiencia.html">Experiencia laboral</a></li>
+            <li><a href="Cursos.html">Cursos realizados</a></li>
+            <li><a href="Contacto.html">Datos de contacto</a></li>
+            <li><a href="Referencias.html">Referencias</a></li>
+        </ul>
+    </nav>
+
+    <h2>Formulario de contacto</h2>
+
+    <form action="" method="get">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido">
+        <br>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo">
+        <br>
+
+        <label for="fecha">Fecha de contacto:</label>
+        <input type="date" id="fecha" name="fecha">
+        <br>
+
+        <label for="horario">Horario de contacto:</label>
+        <select name="horario" id="horario">
+            <option value="">Seleccione una opción</option>
+            <option value="mañana">Mañana</option>
+            <option value="tarde">Tarde</option>
+            <option value="noche">Noche</option>
+        </select>
+        <br>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje"></textarea>
+        <br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+
+</html>
